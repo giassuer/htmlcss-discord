@@ -52,9 +52,19 @@ img{
     color: white;
   }
 
+  .btn-v{
+    background-color: violet;
+    color: white;
+  }
+
+
   .title{
     margin-bottom: 20px;
     font-size: 40px;
+}
+
+.title-2{
+    text-align: center;
 }
 
 .par{
@@ -64,6 +74,9 @@ img{
 
 /* END COMMON */
 
+.main-bottom{
+    margin-top: 60px;
+}
 
 .main-central h1{
     color: white;
@@ -116,12 +129,14 @@ nav li a{
 
 /* MAIN */
 .main-container{
+    position: relative;
     height: 450px;
     margin: auto;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
 }
+
 
 .main-central{
     text-align: center;
@@ -154,6 +169,15 @@ nav li a{
     margin-top: 60px;
 }
 
+.div-h2{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
 
+.cont-btn-v{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 
+}
 
